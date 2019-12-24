@@ -1,0 +1,24 @@
+/*.header*/
+/*{*/
+/*    background: blue;*/
+/*    width: 95%;*/
+/*    height: 200px;*/
+/*    margin-top: auto;*/
+/*}*/
+/*.menu*/
+/*{*/
+/*    background: brown;*/
+/*    width: 30%;*/
+/*    height: 150px;*/
+/*    margin-top: 20px;*/
+/*    margin-right: 20px;*/
+/*}*/
+/*.content{*/
+/*    background: blueviolet;*/
+/*    width: 65%;*/
+/*    height: 150px;*/
+/*}*/
+
+h3{
+    color: blueviolet;
+}
