@@ -18,7 +18,22 @@
 /*    width: 65%;*/
 /*    height: 150px;*/
 /*}*/
+html{
+    background: url("/img/Mask Group_Background_Header.png") no-repeat;
+    background-position-x: 10px;
 
-h3{
-    color: blueviolet;
+}
+
+/*.nav-container{*/
+/*    margin-top: 50px;*/
+/*}*/
+.page-header{
+    width: 91%;
+    margin-top: 50px;
+}
+.active a{
+    color: black;
+}
+.active{
+    margin: 0 28px;
 }

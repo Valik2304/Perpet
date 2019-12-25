@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Perpetio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -30,9 +31,9 @@
                     </div>
 
                     <div class="col-sm-9 col-md-10 columns">
-                        <ul class="menu">
+                        <ul class="menu d-flex justify-content-center">
                             <li class="active">
-                                <a href="#home">Home</a>
+                                <b><a href="#home">Home</a></b>
                             </li>
                             <li class="active">
                                 <a href="#portfolio">Portfolio</a>
@@ -41,10 +42,10 @@
                                 <a href="#careers">Careers</a>
                             </li>
                             <li class="active">
-                                <a href="https://medium.com/perpetio">BLOG</a>
+                                <a href="https://medium.com/perpetio">Blog</a>
                             </li>
                             <li class="active">
-                                <a href="#contact">CONTACT US</a>
+                                <a href="#contact">Contact Us</a>
                             </li>
                         </ul>
                     </div>
@@ -61,6 +62,12 @@
 
     </div>
 </header>
+
+    <section class="section_1">
+        <div class="container">
+
+        </div>
+    </section>
 
 </body>
 
