@@ -1,28 +1,13 @@
-/*.header*/
-/*{*/
-/*    background: blue;*/
-/*    width: 95%;*/
-/*    height: 200px;*/
-/*    margin-top: auto;*/
-/*}*/
-/*.menu*/
-/*{*/
-/*    background: brown;*/
-/*    width: 30%;*/
-/*    height: 150px;*/
-/*    margin-top: 20px;*/
-/*    margin-right: 20px;*/
-/*}*/
-/*.content{*/
-/*    background: blueviolet;*/
-/*    width: 65%;*/
-/*    height: 150px;*/
-/*}*/
+b > a{
+    font-family: ProductSans-Bold;
+}
 html{
+    box-sizing: border-box;
     background: url("/img/Mask Group_Background_Header.png") no-repeat;
     background-position-x: 10px;
-
-}
+}*, *::before, *::after{
+    box-sizing: inherit;
+ }
 
 /*.nav-container{*/
 /*    margin-top: 50px;*/

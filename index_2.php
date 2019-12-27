@@ -9,6 +9,7 @@
     <title>Perpetio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/font.css">
 </head>
 <body>
 <div class="header"></div>
@@ -45,7 +46,7 @@
                                 <a href="https://medium.com/perpetio">Blog</a>
                             </li>
                             <li class="active">
-                                <a href="#contact">Contact Us</a>
+                                    <a href="#contact" id="contact">Contact Us</a>
                             </li>
                         </ul>
                     </div>
@@ -64,7 +65,7 @@
 </header>
 
     <section class="section_1">
-        <div class="container">
+        <div class="container_h1">
 
         </div>
     </section>
