@@ -1,24 +1,83 @@
-b > a{
-    font-family: ProductSans-Bold;
-}
+
 html{
     box-sizing: border-box;
-    background: url("/img/Mask Group_Background_Header.png") no-repeat;
+    /*background: url("/img/Mask Group_Background_Header.png") no-repeat;*/
     background-position-x: 10px;
 }*, *::before, *::after{
     box-sizing: inherit;
  }
 
-/*.nav-container{*/
-/*    margin-top: 50px;*/
-/*}*/
-.page-header{
-    width: 91%;
-    margin-top: 50px;
+ /*Header styles start*/
+header{
+    font-family: Avenir-Medium, Avenir-Black;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #333333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
 }
-.active a{
-    color: black;
+.wrapper{
+    max-width: 1280px;
+    margin: 0 auto;
 }
-.active{
-    margin: 0 28px;
+.header__link-home{
+    font-family: Avenir-Black;
+    font-style: normal;
+    font-weight: 900;
 }
+
+.header__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 25px;
+    /*margin-right: 130px;*/
+    /*margin-left: 130px;*/
+}
+.header__list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.header__item{
+    margin-right: 68px;
+}
+.header__item:last-child{
+    margin-right: 0;
+}
+.header__nav{
+    padding-top: 13px;
+}
+.header__link{
+    font-size: 18px;
+    line-height: 140%;
+    color: #333333;
+    text-decoration: none;
+}
+.header__link-contact{
+    color: #3095F2;
+}
+.header__link:hover, .header__link:focus, .header__link:active{
+    opacity: .50;
+    color: #333333;
+}
+.header__link-contact:hover, .header__link-contact:focus, .header__link-contact:active{
+    color: #3095F2;
+}
+/*Header styles end*/
+
+/*Section "intro" start*/
+.intro{
+    margin-top: 100px;
+    margin-right: 5px;
+    margin-left: 5px;
+    height: 100vh;
+    background: url("../img/Mask Group_Background_Intro.jpg") no-repeat ;
+    background-size: cover;
+}
+/*Section "intro" end*/

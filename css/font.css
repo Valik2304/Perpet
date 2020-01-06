@@ -7,6 +7,22 @@
          url("../fonts/Avenir-Light.woff2") format('woff2');
 }
 @font-face {
+    font-family: 'Avenir-Medium';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Avenir Medium'), local('Avenir Medium'),
+         url("../fonts/Avenir-Medium.woff") format('woff'),
+         url("../fonts/Avenir-Medium.woff2") format('woff2');
+}
+@font-face {
+    font-family: 'Avenir-Black';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Avenir Black'), local('Avenir Black'),
+         url("../fonts/Avenir-Black.woff") format('woff'),
+         url("../fonts/Avenir-Black.woff2") format('woff2');
+}
+@font-face {
     font-family: 'Avenir-Heavy';
     font-style: normal;
     /*font-weight: 400;*/
